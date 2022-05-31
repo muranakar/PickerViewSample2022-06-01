@@ -13,6 +13,10 @@
 		B255C6FF2846DF3E009DC63C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B255C6FD2846DF3E009DC63C /* Main.storyboard */; };
 		B255C7012846DF40009DC63C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B255C7002846DF40009DC63C /* Assets.xcassets */; };
 		B255C7042846DF40009DC63C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B255C7022846DF40009DC63C /* LaunchScreen.storyboard */; };
+		B255C70E2846DFC1009DC63C /* Sena.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B255C70D2846DFC1009DC63C /* Sena.storyboard */; };
+		B255C7102846DFCD009DC63C /* mura.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B255C70F2846DFCD009DC63C /* mura.storyboard */; };
+		B255C7122846DFE9009DC63C /* SenaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B255C7112846DFE9009DC63C /* SenaViewController.swift */; };
+		B255C7142846DFFB009DC63C /* muraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B255C7132846DFFB009DC63C /* muraViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		B255C7002846DF40009DC63C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B255C7032846DF40009DC63C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B255C7052846DF40009DC63C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B255C70D2846DFC1009DC63C /* Sena.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Sena.storyboard; sourceTree = "<group>"; };
+		B255C70F2846DFCD009DC63C /* mura.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = mura.storyboard; sourceTree = "<group>"; };
+		B255C7112846DFE9009DC63C /* SenaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenaViewController.swift; sourceTree = "<group>"; };
+		B255C7132846DFFB009DC63C /* muraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = muraViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +68,31 @@
 				B255C6F92846DF3E009DC63C /* SceneDelegate.swift */,
 				B255C6FB2846DF3E009DC63C /* ViewController.swift */,
 				B255C6FD2846DF3E009DC63C /* Main.storyboard */,
+				B255C70C2846DFA6009DC63C /* sena */,
+				B255C70B2846DF9E009DC63C /* mura */,
 				B255C7002846DF40009DC63C /* Assets.xcassets */,
 				B255C7022846DF40009DC63C /* LaunchScreen.storyboard */,
 				B255C7052846DF40009DC63C /* Info.plist */,
 			);
 			path = "PickerViewSample2022-06-01";
+			sourceTree = "<group>";
+		};
+		B255C70B2846DF9E009DC63C /* mura */ = {
+			isa = PBXGroup;
+			children = (
+				B255C70F2846DFCD009DC63C /* mura.storyboard */,
+				B255C7132846DFFB009DC63C /* muraViewController.swift */,
+			);
+			path = mura;
+			sourceTree = "<group>";
+		};
+		B255C70C2846DFA6009DC63C /* sena */ = {
+			isa = PBXGroup;
+			children = (
+				B255C70D2846DFC1009DC63C /* Sena.storyboard */,
+				B255C7112846DFE9009DC63C /* SenaViewController.swift */,
+			);
+			path = sena;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +154,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B255C7042846DF40009DC63C /* LaunchScreen.storyboard in Resources */,
+				B255C70E2846DFC1009DC63C /* Sena.storyboard in Resources */,
 				B255C7012846DF40009DC63C /* Assets.xcassets in Resources */,
 				B255C6FF2846DF3E009DC63C /* Main.storyboard in Resources */,
+				B255C7102846DFCD009DC63C /* mura.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +169,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B255C6FC2846DF3E009DC63C /* ViewController.swift in Sources */,
+				B255C7122846DFE9009DC63C /* SenaViewController.swift in Sources */,
 				B255C6F82846DF3E009DC63C /* AppDelegate.swift in Sources */,
 				B255C6FA2846DF3E009DC63C /* SceneDelegate.swift in Sources */,
+				B255C7142846DFFB009DC63C /* muraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
